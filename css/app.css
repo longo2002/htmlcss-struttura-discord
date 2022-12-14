@@ -32,3 +32,99 @@ header{
 .login{
     justify-content: flex-end;
 }
+
+.sezione_blu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,139,255);
+}
+
+.sezione_bianca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sezione_grigia{
+    background-color: #d3d3d3;
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sezione_nera{
+    background-color: #23272a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sezione_nera_footer{
+    background-color: #23272a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #d3d3d3;
+}
+
+.quadrato_salmone,
+.quadrato_blu{
+    height: 300px;
+    border: 3px dotted black;
+    margin: 50px 0;
+}
+
+.quadrato_salmone{
+    width: 250px;
+    background-color: #ffc0cb;
+}
+
+.quadrato_blu{
+    width: 350px;
+    background-color: #1e90ff;
+}
+
+.quadrato_rosa{
+    height: 300px;
+    width: 600px;
+    background-color: rgba(238,130,238,255);
+    border: 3px dotted black;
+    margin: 50px 0;
+}
+
+.quadrato_verde{
+    height: 600px;
+    width: 600px;
+    background-color: #228b22;
+    border: 3px dotted black;
+    margin: 50px 0;
+}
+
+.quadrato_arancione{
+    height: 400px;
+    width: 200px;
+    background-color: #f08080;
+    border: 3px dotted black;
+    margin: 50px 0;
+}
+
+.quadrato_turchese{
+    height: 400px;
+    width: 100px;
+    background-color: #20b2aa;
+    border: 3px dotted black;
+    margin: 50px 0;
+}
+
+.container_footer{
+    background-color: #7fffd4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 900px;
+    border: 3px dotted black;
+    margin-top: 50px;
+}
