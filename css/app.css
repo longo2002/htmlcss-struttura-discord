@@ -18,24 +18,27 @@ a{
     text-decoration: none;
     color: white;
     font-family: sans-serif;
+    margin: 25px;
 }
-
-.signup-header{
-    background-color: white;
-    border-radius: 15%;
-    border: 3px solid white;
-    font-family: sans-serif;
-}
-
 
 .row_header{
     margin: 0 auto;
     max-width: 900px;
-    margin-top: 15px;
-    align-items: flex-end;
+    display: flex;
+    justify-content: space-around;
+    flex-basis: content;
+}
+
+.signup-header{
+    height: 40px;
+    width: 80px;
+    font-family: sans-serif;
+	border-radius: 20px;
+	border: 5px solid white;
+	background-color: white;
 }
 
 .col{
-    width: fit-content;
-    display: inline-block;
+    display: flex;
+    align-items: center;
 }
