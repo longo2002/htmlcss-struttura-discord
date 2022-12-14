@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+body{
+    background-color: rgba(37,94,233,255);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+
+.signup-header{
+    background-color: white;
+    border-radius: 15%;
+    border: 3px solid white;
+    font-family: sans-serif;
+}
+
+
+.row_header{
+    margin: 0 auto;
+    max-width: 900px;
+    margin-top: 15px;
+    align-items: flex-end;
+}
+
+.col{
+    width: fit-content;
+    display: inline-block;
+}
